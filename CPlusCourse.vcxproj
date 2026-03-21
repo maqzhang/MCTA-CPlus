@@ -123,12 +123,18 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="BinaryTreeSearch.cpp" />
     <ClCompile Include="CPlusCourse.cpp" />
     <ClCompile Include="HeapSort.cpp" />
+    <ClCompile Include="MatrixMultiplication.cpp" />
+    <ClCompile Include="test.cpp" />
     <ClCompile Include="TestClass.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="BinaryTreeSearch.h" />
     <ClInclude Include="HeapSort.h" />
+    <ClInclude Include="MatrixMultiplication.h" />
+    <ClInclude Include="test.h" />
     <ClInclude Include="TestClass.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

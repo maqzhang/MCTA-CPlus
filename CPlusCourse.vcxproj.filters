@@ -24,12 +24,30 @@
     <ClCompile Include="TestClass.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="BinaryTreeSearch.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="MatrixMultiplication.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="test.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="HeapSort.h">
       <Filter>头文件</Filter>
     </ClInclude>
     <ClInclude Include="TestClass.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="BinaryTreeSearch.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="MatrixMultiplication.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="test.h">
       <Filter>头文件</Filter>
     </ClInclude>
   </ItemGroup>
