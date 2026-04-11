@@ -6,7 +6,21 @@
 #include "BinaryTreeSearch.h"
 #include "MatrixMultiplication.h"
 int main()
-{/*
+{
+	/*
+	调用MatrixMultiplication
+	*/ 
+	// 示例：4个矩阵的链乘法
+   // A1: 10×30  A2: 30×5  A3: 5×60  A4: 60×2
+   // seq 长度为 n+1 = 5
+   // seq[0]=10, seq[1]=30, seq[2]=5, seq[3]=60, seq[4]=2
+	int n = 4;
+	int seq[] = { 10, 30, 5, 60, 2 };
+	int result = cmm(n, seq);
+	std::cout << "最小乘法次数: " << result << std::endl;
+	// 期望输出: 最小乘法次数: 4500
+
+	/*
 	//矩阵链乘法问题测试
 	int n = 6;
 	int seq[7] = { 30, 35, 15, 5, 10, 20, 25 };
@@ -15,6 +29,7 @@ int main()
 	printf("%d ", minCost);
 	*/
 	//上图所示的二叉树先序遍历序列,其中用'#'表示结点无左子树或无右子树
+	/*
 	Element data[15] = { 'A', 'B', 'D', '#', '#', 'E', '#', '#', 'C', 'F','#', '#', 'G', '#', '#' };
 	Tree tree;
 	treeNodeConstructor(tree, data);
@@ -22,6 +37,7 @@ int main()
 	depthFirstSearch(tree);
 	printf("\n\n广度优先遍历二叉树结果: ");
 	breadthFirstSearch(tree);
+	*/
 	
 	/*
 	// 注意：数组按 1..n 使用，R[0] 用作暂存
