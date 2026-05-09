@@ -5,7 +5,9 @@
 #include "HeapSort.h"
 #include "BinaryTreeSearch.h"
 #include "MatrixMultiplication.h"
-int main()
+
+int bakmain()
+//int main() 需要运行哪个测试就把哪个函数改成main
 {
 	/*
 	调用MatrixMultiplication

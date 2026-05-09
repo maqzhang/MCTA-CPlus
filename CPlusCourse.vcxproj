@@ -124,18 +124,49 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="BinaryTreeSearch.cpp" />
+    <ClCompile Include="cmm13.cpp" />
+    <ClCompile Include="constructSet.cpp" />
     <ClCompile Include="CPlusCourse.cpp" />
+    <ClCompile Include="editdistance.cpp" />
+    <ClCompile Include="getCounterfeitCoin.cpp" />
+    <ClCompile Include="get_ triangle_weight.cpp" />
+    <ClCompile Include="get_next.cpp" />
+    <ClCompile Include="Hamilton.cpp" />
     <ClCompile Include="HeapSort.cpp" />
     <ClCompile Include="MatrixMultiplication.cpp" />
+    <ClCompile Include="maxL.cpp" />
+    <ClCompile Include="Memoized_Knapsack.cpp" />
+    <ClCompile Include="merge.cpp" />
+    <ClCompile Include="printLCS.cpp" />
+    <ClCompile Include="QueenPlace.cpp" />
+    <ClCompile Include="RNA_2.cpp" />
+    <ClCompile Include="schedule.cpp" />
+    <ClCompile Include="ShellSort.cpp" />
     <ClCompile Include="test.cpp" />
     <ClCompile Include="TestClass.cpp" />
+    <ClCompile Include="Top_Down_Cut_Rod.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="BinaryTreeSearch.h" />
+    <ClInclude Include="cmm13.h" />
+    <ClInclude Include="constructSet.h" />
+    <ClInclude Include="getCounterfeitCoin.h" />
+    <ClInclude Include="get_ triangle_weight.h" />
+    <ClInclude Include="get_next.h" />
+    <ClInclude Include="Hamilton.h" />
     <ClInclude Include="HeapSort.h" />
     <ClInclude Include="MatrixMultiplication.h" />
+    <ClInclude Include="maxL.h" />
+    <ClInclude Include="Memoized_Knapsack.h" />
+    <ClInclude Include="merge.h" />
+    <ClInclude Include="printLCS.h" />
+    <ClInclude Include="QueenPlace.h" />
+    <ClInclude Include="RNA_2.h" />
+    <ClInclude Include="schedule.h" />
+    <ClInclude Include="ShellSort.h" />
     <ClInclude Include="test.h" />
     <ClInclude Include="TestClass.h" />
+    <ClInclude Include="Top_Down_Cut_Rod.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
